@@ -37,7 +37,7 @@ public class App {
         /*
          *for(int i=0; i<10; i++) n1.write("Testo numero "+(i+1)+"\n");
         System.out.println("Ho scritto nel file "+file);
-        n1.close();
+        n1.close();aaaaaa
          */
         
 
