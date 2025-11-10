@@ -20,7 +20,6 @@ public class Squadra {
         this.differenza = differenza;
     }
 
-    
 
     @Override
     public String toString() {
