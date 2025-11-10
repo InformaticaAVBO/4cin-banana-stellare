@@ -14,6 +14,16 @@ public class SerieA {
         
         String[] elenco= {"Atalanta","Bologna","Cagliari","Como","Cremonese","Fiorentina","Genoa","Inter","Juventus","Lazio","Lecce","Milan","Parma","Pisa","Roma","Sassuolo","Torino","Udinese","Verona"};
         seriea.cercaSquadra();
+        /*
+        do{
+            System.out.println("Quale comando vuoi esplorare?");
+            System.out.println(elenco);
+            int scelta=input.nextInt();
+            switch(scelta){
+
+            }
+        }
+            */
         
     }
     

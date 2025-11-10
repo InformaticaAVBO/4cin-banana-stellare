@@ -1,13 +1,13 @@
 public class Squadra {
 
-    String posizione;
+    int posizione;
     String nome;
-    String punti;
-    String partite, vinte, perse, pareggiate;
-    String fatti, subiti,differenza;
+    int punti;
+    int partite, vinte, perse, pareggiate;
+    int fatti, subiti,differenza;
 //
 
-    public Squadra(String posizione, String nome, String punti, String partite, String vinte, String perse, String pareggiate, String fatti, String subiti, String differenza) {
+    public Squadra(int posizione, String nome, int punti, int partite, int vinte, int perse, int pareggiate, int fatti, int subiti, int differenza) {
         this.posizione = posizione;
         this.nome = nome;
         this.punti = punti;
@@ -27,90 +27,126 @@ public class Squadra {
         return posizione+"° \t"+ nome + " \t"+ punti +"pt \t"+ partite+ " \t"+ vinte+ " \t"+ pareggiate+ " \t"+ perse+ " \t"+ fatti+ " \t"+ subiti+ " \t"+ differenza;
     }
 
-    public String getPosizione() {
+
+
+    public int getPosizione() {
         return posizione;
     }
 
-    public void setPosizione(String posizione) {
+
+
+    public void setPosizione(int posizione) {
         this.posizione = posizione;
     }
+
+
 
     public String getNome() {
         return nome;
     }
 
+
+
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getPunti() {
+
+
+    public int getPunti() {
         return punti;
     }
 
-    public void setPunti(String punti) {
+
+
+    public void setPunti(int punti) {
         this.punti = punti;
     }
 
-    public String getPartite() {
+
+
+    public int getPartite() {
         return partite;
     }
 
-    public void setPartite(String partite) {
+
+
+    public void setPartite(int partite) {
         this.partite = partite;
     }
 
-    public String getVinte() {
+
+
+    public int getVinte() {
         return vinte;
     }
 
-    public void setVinte(String vinte) {
+
+
+    public void setVinte(int vinte) {
         this.vinte = vinte;
     }
 
-    public String getPerse() {
+
+
+    public int getPerse() {
         return perse;
     }
 
-    public void setPerse(String perse) {
+
+
+    public void setPerse(int perse) {
         this.perse = perse;
     }
 
-    public String getPareggiate() {
+
+
+    public int getPareggiate() {
         return pareggiate;
     }
 
-    public void setPareggiate(String pareggiate) {
+
+
+    public void setPareggiate(int pareggiate) {
         this.pareggiate = pareggiate;
     }
 
-    public String getFatti() {
+
+
+    public int getFatti() {
         return fatti;
     }
 
-    public void setFatti(String fatti) {
+
+
+    public void setFatti(int fatti) {
         this.fatti = fatti;
     }
 
-    public String getSubiti() {
+
+
+    public int getSubiti() {
         return subiti;
     }
 
-    public void setSubiti(String subiti) {
+
+
+    public void setSubiti(int subiti) {
         this.subiti = subiti;
     }
 
-    public String getDifferenza() {
+
+
+    public int getDifferenza() {
         return differenza;
     }
 
-    public void setDifferenza(String differenza) {
+
+
+    public void setDifferenza(int differenza) {
         this.differenza = differenza;
     }
 
-    
-    
-    
-    
-    
 
+    
 }

@@ -1,7 +1,7 @@
 
-import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 public class Campionato {
 
@@ -17,7 +17,7 @@ public class Campionato {
         for (int i = 0; leggi.hasNextLine(); i++) {
             String s = leggi.nextLine();
             String[] ss = s.split(",");
-            classifica[i] = new Squadra(ss[0], ss[1], ss[2], ss[3], ss[4], ss[5], ss[6], ss[7], ss[8], ss[9]);
+            classifica[i] = new Squadra(Integer.parseInt(ss[0]), ss[1], Integer.parseInt(ss[2]), Integer.parseInt(ss[3]), Integer.parseInt(ss[4]), Integer.parseInt(ss[5]), Integer.parseInt(ss[6]), Integer.parseInt(ss[7]), Integer.parseInt(ss[8]), Integer.parseInt(ss[9]));
         }
 
         leggi.close();
@@ -55,7 +55,14 @@ public class Campionato {
                 }
             }
             System.out.println(classifica[nSquadra-1]);
-        }
     }
 
-    //s.split(",")
+    public void ricalcola(){
+        for (int i = 0; i < DIM; i++) {
+            int punti= (classifica[i].getVinte()*3)+ classifica[i].getPareggiate();
+            classifica[i].setPunti(punti);
+        }
+    }
+}
+//s.split(",")
+  
