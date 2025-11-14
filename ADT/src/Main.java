@@ -12,6 +12,6 @@ public class Main {
 
         Vettore<Persona> elenco = new Vettore<Persona>(10, 5);
 
-        
+        elenco.add(new Persona("Mario", "Rossi", 30));
     }
 }
