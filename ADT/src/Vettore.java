@@ -3,6 +3,10 @@ public class Vettore<T> {
     T[] v;
     int n, start, delta;
 
+    public Vettore() {
+        this(10, 10);
+    }
+
     @SuppressWarnings("unchecked")
     public Vettore( int start, int delta ) {
         if (start<=0) start=10;
@@ -27,6 +31,8 @@ public class Vettore<T> {
         if (i<0 || i>=v.length) return null;
         return v[i];
     }
+
+    
 
     public String toString() {
         String s = "Sono dimensionato a " + v.length + ", ma contengo " + n + " valori, che sono questi:\n";
