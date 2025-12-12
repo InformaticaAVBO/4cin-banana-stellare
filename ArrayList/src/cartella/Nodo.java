@@ -2,10 +2,11 @@ package cartella;
 public class Nodo {
     private String nome;
     Nodo next;
-
+    Nodo previous;
     public Nodo(String nome) {
         this.nome = nome;
         this.next = null;
+        this.previous = null;
     }
 
     public String getNome() {
@@ -17,7 +18,12 @@ public class Nodo {
     public void setNext(Nodo next) {
         this.next = next;
     }
-    
+    public Nodo getPrevious() {
+        return previous;
+    }
+    public void setPrevious(Nodo previous) {
+        this.previous = previous;
+    }
     public void setNome(String nome) {
         this.nome = nome;
     }
