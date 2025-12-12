@@ -1,8 +1,7 @@
 package cartella;
 public class Main{
     public static void main(String[] args) {
-        /*
-        
+        /*             
         Lista l1= new Lista();
         l1.add("Mario");
         l1.add("Mimmo");
