@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 public class Lista {
 
-    ArrayList<String> lista = new ArrayList<>();
+    private ArrayList<String> lista = new ArrayList<>();
 
     public Lista() {
         
