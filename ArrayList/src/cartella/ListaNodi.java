@@ -6,8 +6,16 @@ public class ListaNodi{
     public ListaNodi(){
         this.root=null;
     }
+    public void addHead(Nodo n){
+        if (root==null){
+            root=n;
+            return;
+        }
+        n.setNext(root);
+        root=n;
+    }
     // aggiunge un nodo in fondo alla lista
-    public void add(Nodo n){
+    public void addTail(Nodo n){
         if(root==null){
             root=n;
             return;

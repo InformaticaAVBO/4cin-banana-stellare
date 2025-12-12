@@ -13,9 +13,10 @@ public class Main{
         l1.printa();
         */
         ListaNodi l1= new ListaNodi();
-        l1.add(new Nodo("Mario"));
-        l1.add(new Nodo("Mimmo"));
-        l1.add(new Nodo("Martino"));
+        l1.addTail(new Nodo("Mario"));
+        l1.addTail(new Nodo("Mimmo"));
+        l1.addTail(new Nodo("Martino"));
+        l1.addHead(new Nodo("Marco"));
         System.out.println(l1.toString());
     }
 }
