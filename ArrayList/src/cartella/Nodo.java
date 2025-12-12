@@ -1,3 +1,4 @@
+package cartella;
 public class Nodo {
     private String nome;
     Nodo next;

@@ -1,3 +1,4 @@
+package cartella;
 import java.util.ArrayList;
 public class Lista {
 

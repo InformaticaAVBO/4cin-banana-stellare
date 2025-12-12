@@ -1,3 +1,5 @@
+package cartella;
+
 public class ListaNodi{
     private Nodo root;
 
