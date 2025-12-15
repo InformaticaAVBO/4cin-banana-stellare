@@ -1,8 +1,9 @@
 package cartella;
 public class Nodo {
     private String nome;
-    Nodo next;
-    Nodo previous;
+    private Nodo next;
+    private Nodo previous;
+    private int posizione;
     public Nodo(String nome) {
         this.nome = nome;
         this.next = null;
@@ -26,6 +27,12 @@ public class Nodo {
     }
     public void setNome(String nome) {
         this.nome = nome;
+    }
+    public void setPosizione(int posizione) {
+        this.posizione = posizione;
+    }
+    public int getPosizione() {
+        return posizione;
     }
 
 }
